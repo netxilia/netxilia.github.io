@@ -1,0 +1,145 @@
+/* YUI reset :http://yui.yahooapis.com/2.8.0r4/build/reset/reset-min.css */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+/* end YUI reset */
+
+html,body {
+	font-family: arial, sans, sans-serif;
+	border: 0px;
+	width: 100%;
+	height: 100%;
+	xoverflow: hidden;
+}
+
+div.topline{
+	padding: 0px 10px;
+	height:38px;
+}
+
+div.topline .logo {
+	height:36px;
+	margin-top:4px;
+	cursor: pointer;
+}
+
+div.topline ul {
+	float:right;
+	margin-top:10px;
+}
+
+div.topline ul li{
+	display:inline;
+	border-left: solid 1px #8D8EC5;
+	padding-left: 5px;
+}
+
+div.topline ul li.first{
+	border-left: none;
+}
+
+div.topline .login {
+}
+
+div.topline #message{
+	font-size:0.9em;
+	color: #333;
+	background-color:#EBDDD4;
+	padding: 4px;
+}
+
+div.topline #users {
+	border: none;
+}
+
+div.content {
+	position:absolute;
+	top: 41px; /* the same as topline's height + vert border*/
+	bottom: 40px; /* the same as footers height */
+	width:100%;
+}
+
+div.footer {
+	height: 0px;
+	bottom:0;
+	position:absolute;
+	text-align:center;
+}
+
+a:link,a:visited {
+	font-size: 1em;
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	color: #8D8EC5;
+	text-decoration: underline;
+}
+
+#menu a {
+	padding: 2px 3px;
+}
+
+/**** readme *****/
+.readme {
+	padding-left: 30px;
+}	
+.readme h1{
+	font-size: 2em;
+	color: #333399;
+	margin: 10px;
+}
+
+.readme h2{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #333399;
+	border-bottom:solid 1px #333399;
+	margin: 15px 5px 5px 5px;
+	width:100%;
+}
+
+.readme p {
+	margin: 5px 2px;
+	line-height:1.3em;
+}
+
+.readme ul {
+	list-style-type: disc;
+	list-style-position: inside;
+	padding-left: 25px;
+}
+
+.readme ol {
+	list-style-type: decimal;
+	list-style-position: inside;
+	padding-left: 25px;
+}
